@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+        #name{
+            justify-content: center;
+        }
+    </style>
+    
+  </head>
+  <body>
+    <div>
+      <h1>Event 1</h1>
+      <form onsubmit="handleFormSubmit(event)">
+        <div>
+          <label>Name: </label>
+          <input
+            id="name"
+            type="text"
+            minlength="5"
+            maxlength="10"
+            required
+            placeholder="Enter your name"
+          />
+        </div>
+        <div>
+          <label>Email: </label>
+          <input
+            id="email"
+            required
+            type="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div>
+          <label>Mobile Number: </label>
+          <input
+            id="mobileNumber"
+            type="number"
+            min="0"
+            max="10"
+            placeholder="Enter your mobile number"
+          />
+        </div>
+        <div>
+            <label>Number of seat: </label>
+            <input
+              id="Number of seat"
+              type="number"
+              min="0"
+              max="10"
+              placeholder="seat number"
+            />
+          </div>
+
+        <div>
+          <label>Address: </label>
+          <input id="address" type="text" placeholder="Enter your address" />
+        </div>
+        <div>
+          <button type="submit">SUBMIT</button>
+          <button type="reset">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+<!-- FORM -> SUBMIT -> FRONT END -> API -> BACKEND -> DB -->

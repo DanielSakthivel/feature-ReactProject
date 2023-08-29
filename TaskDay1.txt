@@ -1,0 +1,21 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2 ?
+HTTP/1.1:
+ For better understanding, let’s assume the situation
+ when you make a request to the server for the geeksforgeeks.
+ html page & server responds to you as a resource geeksforgeeks.html page. before sending the
+ request and the response there is a TCP connection established between client & server.
+
+ HTTP/2:
+  HTTP/2 was developed over the SPDY protocol. 
+ HTTP/2 works on the binary framing layer instead of textual that converts 
+ all the messages in binary format. 
+ it works on fully multiplexed that is one TCP connection is used for multiple requests.
+
+ 2. Write a blog about objects and its internal representation in Javascript?
+
+    Objects, in JavaScript, is it’s most important data-type and
+     forms the building blocks for modern JavaScript. These objects
+      are quite different from 
+      JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol)
+       in the sense that while these primitive data-types
+     all store a single value each (depending on their types).

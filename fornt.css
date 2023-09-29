@@ -1,0 +1,13 @@
+h3{
+    justify-content: left;
+     
+     color: #0c0c0c;
+     display: flex;
+ }
+ .flexbox{
+    background-color: aliceblue;
+    text-align: center;
+ }
+ body{
+    background-color: azure;
+ }
